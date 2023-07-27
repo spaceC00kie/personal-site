@@ -1,7 +1,7 @@
 type Props = {
   title: string
   codeHref?: string
-  videoHref?: string
+  siteHref?: string
   topImage: string
   description: string
   description2?: string
@@ -13,7 +13,7 @@ const ProjectCard: React.FC<Props> = ({
   description2,
   title,
   codeHref,
-  videoHref,
+  siteHref,
 }) => {
   return (
     <div className="m-1.5 rounded-lg border border-slate-700 bg-slate-800">
@@ -41,12 +41,12 @@ const ProjectCard: React.FC<Props> = ({
                 Source Code
               </a>
             )}
-            {videoHref && (
+            {siteHref && (
               <a
-                href={videoHref}
+                href={siteHref}
                 className="flex cursor-pointer items-center justify-center rounded-md border border-transparent bg-zinc-600 p-1.5 hover:border-zinc-200"
               >
-                Video
+                Try it out!
               </a>
             )}
           </div>

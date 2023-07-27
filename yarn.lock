@@ -1356,26 +1356,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"geektechniquestudios@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "geektechniquestudios@workspace:."
-  dependencies:
-    "@types/react": ^18.0.0
-    "@types/react-dom": ^18.0.0
-    "@vitejs/plugin-react": ^1.3.0
-    autoprefixer: ^10.4.7
-    postcss: ^8.4.14
-    prettier: ^2.6.2
-    prettier-plugin-tailwindcss: ^0.2.1
-    react: ^18.0.0
-    react-dom: ^18.0.0
-    react-icons: ^4.3.1
-    tailwindcss: ^3.0.24
-    typescript: ^4.6.3
-    vite: ^2.9.9
-  languageName: unknown
-  linkType: soft
-
 "gensync@npm:^1.0.0-beta.2":
   version: 1.0.0-beta.2
   resolution: "gensync@npm:1.0.0-beta.2"
@@ -2000,6 +1980,26 @@ __metadata:
   checksum: e2557cff3a8fb8bc07afdd6ab163a92587884f9969b05bbbaf6fe7379348bfb09af9ed292af12ed32398b15fb443e81692047b786d1eeb6d898a51eb17ed7d90
   languageName: node
   linkType: hard
+
+"personal-site@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "personal-site@workspace:."
+  dependencies:
+    "@types/react": ^18.0.0
+    "@types/react-dom": ^18.0.0
+    "@vitejs/plugin-react": ^1.3.0
+    autoprefixer: ^10.4.7
+    postcss: ^8.4.14
+    prettier: ^2.6.2
+    prettier-plugin-tailwindcss: ^0.2.1
+    react: ^18.0.0
+    react-dom: ^18.0.0
+    react-icons: ^4.3.1
+    tailwindcss: ^3.0.24
+    typescript: ^4.6.3
+    vite: ^2.9.9
+  languageName: unknown
+  linkType: soft
 
 "picocolors@npm:^1.0.0":
   version: 1.0.0
