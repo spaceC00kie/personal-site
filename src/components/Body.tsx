@@ -7,7 +7,7 @@ type Props = {}
 export const Body: React.FC<Props> = () => {
   return (
     <div className="flex justify-center">
-      <div className="flex max-w-4xl grow flex-col gap-3 border-l border-r border-slate-700 bg-slate-900 px-10">
+      <div className="flex max-w-4xl grow flex-col gap-3 border-l-2 border-r-2 border-gray-500 bg-blue-400 px-10">
         <Intro />
         <ProjectCard
           title="Kibble Check"
@@ -47,11 +47,11 @@ export const Body: React.FC<Props> = () => {
           description="A to-do list and reminder software that allows users to manage their daily tasks"
           description2="This project taught me essential programmimg skills like how to create reusable components, implement conditional styling, and how to accept user input through a form."
         />
-        <p className="mx-4 flex justify-end text-zinc-300">Kirstie Wilkinson</p>
-        <p className="mx-4 flex justify-end text-zinc-300">
+        <p className="mx-4 flex justify-end font-medium text-gray-50">Kirstie Wilkinson</p>
+        <p className="mx-4 flex justify-end font-medium text-gray-50">
           kwilkinson.professional@gmail.com
         </p>
-        <p className="mx-4 flex justify-end text-zinc-300">(770) 713-7720</p>
+        <p className="mx-4 flex justify-end font-medium text-gray-50">(770) 713-7720</p>
         <Footer />
       </div>
     </div>

@@ -2,7 +2,7 @@ import { Body } from "./components/Body"
 
 export const App = () => {
   return (
-    <div className="bg-slate-800">
+    <div className="bg-gray-900">
       <Body />
     </div>
   )
