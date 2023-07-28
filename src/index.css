@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+#body {
+  background: rgb(96 165 250);
+  background: linear-gradient(
+    314deg,
+    rgba(36, 60, 114, 1) 0%,
+    rgba(2, 0, 36, 1) 16%,
+    rgba(71, 120, 213, 1) 50%,
+    rgba(58, 97, 194, 1) 88%,
+    rgba(9, 9, 121, 1) 100%
+  );
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

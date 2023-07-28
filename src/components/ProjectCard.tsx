@@ -21,14 +21,14 @@ const ProjectCard: React.FC<Props> = ({
         {title}
       </div>
       <div className="gap-3 p-4 md:flex">
-        <div className="mt-2 md:w-1/2">
+        <div className="md:w-1/2 mt-2">
           <img
             className="rounded-lg border-2 border-gray-500 bg-gray-600"
             src={topImage}
           />
         </div>
-        <div className="mt-2 flex grow flex-col justify-between rounded-b-lg text-gray-200 md:w-1/2">
-          <div className="flex flex-col text-lg gap-4">
+        <div className="md:w-1/2 mt-2 flex grow flex-col justify-between rounded-b-lg text-gray-200">
+          <div className="flex flex-col gap-4 text-lg">
             <p>{description}</p>
             {description2 && <p className="pt-3">{description2}</p>}
           </div>
