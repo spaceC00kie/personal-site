@@ -7,10 +7,7 @@ type Props = {}
 export const Body: React.FC<Props> = () => {
   return (
     <div className="flex justify-center">
-      <div
-        // id="body"
-        className="flex max-w-4xl grow flex-col gap-3 border-l-2 border-r-2 border-gray-500 px-2 sm:px-10"
-      >
+      <div className="flex max-w-4xl grow flex-col gap-3 border-gray-500 px-2 sm:px-10">
         <Intro />
         <ProjectCard
           title="Kibble Check"
