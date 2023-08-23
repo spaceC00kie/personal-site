@@ -22,7 +22,7 @@ export const Footer: React.FC<Props> = () => {
       />
       <SocialLink
         title="My resume"
-        href="KWilkinsonResume.pdf"
+        href="KirstieWilkinsonResume.pdf"
         icon={<BsCardList />}
       />
     </div>
