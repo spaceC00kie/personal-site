@@ -1,6 +1,6 @@
 type Props = {
   title: string
-  codeHref?: string
+  codeHref: string
   siteHref?: string
   topImage: string
   description: string
@@ -24,10 +24,12 @@ const ProjectCard: React.FC<Props> = ({
       </div>
       <div className="gap-3 p-4 md:flex">
         <div className="mt-2 md:w-1/2">
-          <img
-            className="rounded-lg border-2 border-gray-500 bg-indigo-800"
-            src={topImage}
-          />
+          <a href={siteHref ?? codeHref}>
+            <img
+              className="rounded-lg border-2 border-gray-500 bg-indigo-800"
+              src={topImage}
+            />
+          </a>
         </div>
         <div className="mt-2 flex grow flex-col justify-between rounded-b-lg text-gray-200 md:w-1/2">
           <div className="flex flex-col gap-6 text-lg">
